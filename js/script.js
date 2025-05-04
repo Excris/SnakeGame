@@ -13,7 +13,7 @@ const DrawSnake = () => {
     ctx.fillStyle = "#ddd";
     
     snake.forEach((position) => {
-        ctx.fillRect(position)    
+        ctx.fillRect(position.x, position.y, size, size);    
     })
     
 }
